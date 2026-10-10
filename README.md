@@ -1,13 +1,17 @@
 # spring10-15
 
-仓库按用途分为五类。分类不靠目录（GitHub 没有目录层级），靠统一的 `topics` 命名空间：
+仓库按用途分类。分类不靠目录（GitHub 没有目录层级），靠统一的 `topics` 命名空间：
 `cat-*` 标类别，`status-*` 标状态，fork 类仓库额外带 `fork-follow` 与 `upstream-<owner>`。
+分类只体现在这里和各仓库的 topics，不写进仓库 About 说明。
+
+仓库地址一经建立即固定，本地目录怎么重组都不改仓库名、不删仓、不转移归属；本地目录与仓库地址的对应关系由私有记忆仓维护。
 
 ## 自研产品
 
 | 仓库 | 说明 | 主要语言 | 状态 |
 | --- | --- | --- | --- |
 | [Texas-pub](https://github.com/spring10-15/Texas-pub) | 德州扑克主题单机网页游戏 | GDScript | 维护中 |
+| [interactive-novel-web](https://github.com/spring10-15/interactive-novel-web) | 无限互动小说作家 · AI 互动小说创作平台 | TypeScript | 维护中 |
 
 ## 早期原型
 
@@ -15,7 +19,6 @@
 
 | 仓库 | 说明 | 主要语言 | 状态 |
 | --- | --- | --- | --- |
-| [interactive-novel-web](https://github.com/spring10-15/interactive-novel-web) | 互动小说生成 | TypeScript | 已收尾 |
 | [Ball-Game](https://github.com/spring10-15/Ball-Game) | 多智能体球球大作战 | TypeScript | 已收尾 |
 | [PPT-generate](https://github.com/spring10-15/PPT-generate) | 固定模板 PPT 生成 | TypeScript | 已收尾 |
 | [risk-gate](https://github.com/spring10-15/risk-gate) | 操作风险检测 MCP Server | TypeScript | 已收尾 |
@@ -51,7 +54,7 @@
 
 ## 说明
 
-另有若干私有仓库（个人知识中枢、个人说明书等）不在此列。
+私有仓库不在此列：`claude`（个人知识中枢）、`personal-manual`（个人说明书展示站）。
 
 按标签浏览：[cat-product](https://github.com/spring10-15?tab=repositories&q=&language=&sort=&topic=cat-product) ·
 [cat-prototype](https://github.com/spring10-15?tab=repositories&language=&sort=&topic=cat-prototype) ·
